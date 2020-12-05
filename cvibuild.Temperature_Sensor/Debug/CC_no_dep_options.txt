@@ -1,0 +1,1 @@
+-force-include-file "Temperature_Sensor.c";"d:\DavidH55\ISDR\7mo Semestre\Interfaces de Equipo de Cómputo\Final\Ver9_2\Temperature_Sensor.c" 

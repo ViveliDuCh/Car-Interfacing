@@ -1,0 +1,36 @@
+-nologo
+-out:d:\DavidH55\ISDR\7mo Semestre\Interfaces de Equipo de Cómputo\Final\Ver9_2\cvibuild.Temperature_Sensor\Debug\Temperature_Sensor.exe
+-arch:x86
+-timestamp
+-debug:2
+-loadextmod
+-res:d:\DavidH55\ISDR\7mo Semestre\Interfaces de Equipo de Cómputo\Final\Ver9_2\cvibuild.Temperature_Sensor\Debug\resources.res
+-entry:_CVIWinMainStartupCodeForDebugging@0
+-base:0x400000
+-linked:d:\DavidH55\ISDR\7mo Semestre\Interfaces de Equipo de Cómputo\Final\Ver9_2\cvibuild.Temperature_Sensor\Debug\linkersummary.txt
+-dlldeps:d:\DavidH55\ISDR\7mo Semestre\Interfaces de Equipo de Cómputo\Final\Ver9_2\cvibuild.Temperature_Sensor\Debug\dlldependencies.txt
+-licensing:d:\DavidH55\ISDR\7mo Semestre\Interfaces de Equipo de Cómputo\Final\Ver9_2\cvibuild.Temperature_Sensor\Debug\linkerlicensing.txt
+-browsedeps:d:\DavidH55\ISDR\7mo Semestre\Interfaces de Equipo de Cómputo\Final\Ver9_2\cvibuild.Temperature_Sensor\Debug\moduledependencies.txt
+-stackreserve:1048576
+-stackcommit:4096
+-in:d:\DavidH55\ISDR\7mo Semestre\Interfaces de Equipo de Cómputo\Final\Ver9_2\cvibuild.Temperature_Sensor\Debug\Temperature_Sensor.obj
+-more:d:\national instruments\cvi2015\bin\msvc\cvistart.lib
+-more:d:\national instruments\cvi2015\bin\msvc\cvi.lib
+-more:D:\Windows Kits\8.1\Lib\winv6.3\um\x86\advapi32.lib
+-more:c:\ProgramData\National Instruments\CVI2015\bin\msvc\analysis.lib
+-more:d:\National Instruments\CVI2015\bin\msvc\cviauto.lib
+-more:d:\National Instruments\CVI2015\bin\msvc\cvidotnet.lib
+-more:d:\National Instruments\CVI2015\bin\msvc\cvinetstreams.lib
+-more:d:\National Instruments\CVI2015\bin\msvc\cvinetv.lib
+-more:d:\National Instruments\CVI2015\bin\msvc\cvintwrk.lib
+-more:d:\National Instruments\CVI2015\bin\msvc\cvitdms.lib
+-more:D:\Windows Kits\8.1\Lib\winv6.3\um\x86\gdi32.lib
+-more:d:\National Instruments\CVI2015\bin\msvc\gpib.lib
+-more:D:\Windows Kits\8.1\Lib\winv6.3\um\x86\kernel32.lib
+-more:d:\National Instruments\CVI2015\bin\msvc\nivxi.lib
+-more:d:\National Instruments\CVI2015\bin\msvc\omp.lib
+-more:d:\National Instruments\CVI2015\toolslib\toolbox\msvc\toolbox.obj
+-more:D:\Windows Kits\8.1\Lib\winv6.3\um\x86\user32.lib
+-more:D:\Windows Kits\8.1\Lib\winv6.3\um\x86\uuid.lib
+-more:d:\National Instruments\Shared\CVI\Bin\msvc\visa.lib
+-more:D:\Windows Kits\8.1\Lib\winv6.3\um\x86\winmm.lib

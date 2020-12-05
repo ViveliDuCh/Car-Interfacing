@@ -1,0 +1,40 @@
+[cambioDec]
+Class="Function"
+Prototype="int cambioDec(char B1ascii, char B2ascii);"
+
+[main]
+Class="Function"
+Prototype="int main(int argc, char **argv);"
+
+[panelCB]
+Class="Function"
+Prototype="int panelCB(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Initialize]
+Class="Function"
+Prototype="int Initialize();"
+
+[TimerCallback]
+Class="Function"
+Prototype="int TimerCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[timer_rpm]
+Class="Function"
+Prototype="int timer_rpm(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[timer_speed]
+Class="Function"
+Prototype="int timer_speed(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[timer_throttle]
+Class="Function"
+Prototype="int timer_throttle(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[timer_pressure]
+Class="Function"
+Prototype="int timer_pressure(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[QuitCallback]
+Class="Function"
+Prototype="int QuitCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+

@@ -1,0 +1,42 @@
+CCFLAGS = -g ;
+HDRS = 	"d:\\national instruments\\cvi2015\\toolslib\\activex\\word"
+	"d:\\national instruments\\cvi2015\\toolslib\\activex\\excel"
+	"d:\\national instruments\\cvi2015\\toolslib\\custctrl"
+	"d:\\national instruments\\cvi2015\\toolslib\\custctrl\\custsupp"
+	"d:\\national instruments\\cvi2015\\toolslib\\cvirtsup"
+	"d:\\national instruments\\cvi2015\\toolslib\\datasock"
+	"d:\\national instruments\\cvi2015\\toolslib\\daqUtil"
+	"d:\\national instruments\\cvi2015\\toolslib\\printing"
+	"d:\\national instruments\\cvi2015\\toolslib\\toolbox"
+	"d:\\national instruments\\cvi2015\\toolslib\\reportgen"
+	"d:\\national instruments\\cvi2015\\toolslib\\localui"
+	"d:\\national instruments\\cvi2015\\instr"
+	"D:\\National Instruments\\Shared\\CVI\\toolslib\\custctrl"
+	"D:\\National Instruments\\Shared\\CVI\\toolslib\\custctrl\\custsupp"
+	"D:\\National Instruments\\Shared\\CVI\\instr"
+	"C:\\ProgramData\\National Instruments\\CVI2015\\instr"
+	"d:\\national instruments\\cvi2015\\include"
+	"D:\\National Instruments\\Shared\\CVI\\include"
+	"C:\\ProgramData\\National Instruments\\CVI2015\\include"
+	"C:\\ProgramData\\National Instruments\\CVI\\include"
+	"d:\\national instruments\\cvi2015\\include\\ansi"
+	"d:\\national instruments\\cvi2015\\include\\clang\\3.3"
+	"C:\\Program Files (x86)\\IVI Foundation\\IVI\\Include"
+	"C:\\Program Files (x86)\\IVI Foundation\\VISA\\winnt\\include"
+	"D:\\National Instruments\\Shared\\MSDTRedistributables\\SDKHeaderFiles\\8.1"
+	"d:\\National Instruments\\CVI2015\\bin"
+	"c:\\ProgramData\\National Instruments\\CVI2015\\bin"
+	"d:\\National Instruments\\Shared\\CVI\\Bin"
+	;
+include Jamfile_instr ;
+LOCATE on "Temperature_Sensor.c" = "d:\\DavidH55\\ISDR\\7mo Semestre\\Interfaces de Equipo de Cómputo\\Final\\Ver9_2" ;
+Object "d:\\DavidH55\\ISDR\\7mo Semestre\\Interfaces de Equipo de Cómputo\\Final\\Ver9_2\\cvibuild.Temperature_Sensor\\Debug\\Temperature_Sensor.obj" : "d:\\DavidH55\\ISDR\\7mo Semestre\\Interfaces de Equipo de Cómputo\\Final\\Ver9_2\\Temperature_Sensor.c" ;
+FILENUM on "d:\\DavidH55\\ISDR\\7mo Semestre\\Interfaces de Equipo de Cómputo\\Final\\Ver9_2\\cvibuild.Temperature_Sensor\\Debug\\Temperature_Sensor.obj" = 1 ;
+DEFPROTS on "d:\\DavidH55\\ISDR\\7mo Semestre\\Interfaces de Equipo de Cómputo\\Final\\Ver9_2\\cvibuild.Temperature_Sensor\\Debug\\Temperature_Sensor.obj" = "d:\\DavidH55\\ISDR\\7mo Semestre\\Interfaces de Equipo de Cómputo\\Final\\Ver9_2\\cvibuild.Temperature_Sensor\\Debug\\Temperature_Sensor.obj.cvidefprots" ;
+OUTFILE on "d:\\DavidH55\\ISDR\\7mo Semestre\\Interfaces de Equipo de Cómputo\\Final\\Ver9_2\\cvibuild.Temperature_Sensor\\Debug\\Temperature_Sensor.obj" = "d:\\DavidH55\\ISDR\\7mo Semestre\\Interfaces de Equipo de Cómputo\\Final\\Ver9_2\\cvibuild.Temperature_Sensor\\Debug\\Temperature_Sensor.obj.out" ;
+PrjObjects += "d:\\DavidH55\\ISDR\\7mo Semestre\\Interfaces de Equipo de Cómputo\\Final\\Ver9_2\\cvibuild.Temperature_Sensor\\Debug\\Temperature_Sensor.obj" ;
+Object "d:\\DavidH55\\ISDR\\7mo Semestre\\Interfaces de Equipo de Cómputo\\Final\\Ver9_2\\cvibuild.Temperature_Sensor\\Debug\\resources.res" : "d:\\DavidH55\\ISDR\\7mo Semestre\\Interfaces de Equipo de Cómputo\\Final\\Ver9_2\\cvibuild.Temperature_Sensor\\Debug\\resources.in.rc" ;
+MainFromObjects "d:\\DavidH55\\ISDR\\7mo Semestre\\Interfaces de Equipo de Cómputo\\Final\\Ver9_2\\cvibuild.Temperature_Sensor\\Debug\\Temperature_Sensor.exe" : $(PrjObjects) $(InstrObjects) ;
+Depends "d:\\DavidH55\\ISDR\\7mo Semestre\\Interfaces de Equipo de Cómputo\\Final\\Ver9_2\\cvibuild.Temperature_Sensor\\Debug\\Temperature_Sensor.exe" : "d:\\DavidH55\\ISDR\\7mo Semestre\\Interfaces de Equipo de Cómputo\\Final\\Ver9_2\\cvibuild.Temperature_Sensor\\Debug\\link_options.txt" ;
+Depends "d:\\DavidH55\\ISDR\\7mo Semestre\\Interfaces de Equipo de Cómputo\\Final\\Ver9_2\\cvibuild.Temperature_Sensor\\Debug\\Temperature_Sensor.exe" : "d:\\DavidH55\\ISDR\\7mo Semestre\\Interfaces de Equipo de Cómputo\\Final\\Ver9_2\\cvibuild.Temperature_Sensor\\Debug\\resources.res" ;
+Depends all : "d:\\DavidH55\\ISDR\\7mo Semestre\\Interfaces de Equipo de Cómputo\\Final\\Ver9_2\\cvibuild.Temperature_Sensor\\Debug\\Temperature_Sensor.exe" ;
